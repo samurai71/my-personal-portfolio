@@ -1,10 +1,14 @@
-import { Inter } from "next/font/google";
+import { Raleway } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const raleway = Raleway({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-raleway",
+});
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline text-blue-800 text-center py-2">
+    <h1 className="text-3xl font-bold underline text-blue-800 text-center py-2 font-serif">
       Hello world!!!
     </h1>
   );
