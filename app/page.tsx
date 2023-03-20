@@ -8,7 +8,7 @@ const raleway = Raleway({
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline text-blue-800 text-center py-2 font-serif">
+    <h1 className="text-3xl font-bold underline text-white text-center py-2 font-serif">
       Hello world!!!
     </h1>
   );
