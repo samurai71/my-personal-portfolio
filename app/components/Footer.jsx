@@ -9,7 +9,7 @@ function Footer() {
         <Image src={CdnFlag} alt="Canadian Flag Animation" />
       </div>
       <div className="flex justify-center w-full">
-        <p className="font-mono pb-3 text-white">
+        <p className="font-sans pb-3 text-white">
           &copy; {new Date().getFullYear()} Mark Landeryou All rights reserved.
         </p>
       </div>
