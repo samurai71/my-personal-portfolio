@@ -4,7 +4,7 @@ import CdnFlag from "../../public/img/cdn.webp";
 
 function Footer() {
   return (
-    <footer className="bg-slate-600 py-2 pb-2 my-2 border-2">
+    <footer className="bg-slate-600 py-2 pb-2 my-2 border-2 container mx-auto">
       <div className="flex justify-center">
         <Image src={CdnFlag} alt="Canadian Flag Animation" />
       </div>
